@@ -1,3 +1,4 @@
+
 /**
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @typedef PortafolioData
@@ -17,37 +18,37 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/img/cocineria.png',
+		title: 'Cocinería',
+		skills: ['React', 'CSS', 'Tailwind'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Proyecto para el ramo de Ingeniería de Software realizado junto con mis compañeros de carrera y yo.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/yung-woodz/Cocineria-Grupo-3',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		imgSrc: '/img/sql-injection.png',
+		title: 'Hacking Ético',
+		skills: [],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Prueba de SQL Injection hacia una página generada en conjunto con Metasploitable y Kali Linux',
+		demoURL: '/docs/SQL_Injection - Dilan Toro Moraga.pdf',
+		repoURL: '/docs/SQL_Injection - Dilan Toro Moraga.pdf',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: '/img/phising.jpg',
+		title: 'Phishing Project',
+		skills: ['JavaScript','React', 'CSS', 'Tailwind'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Proyecto de Pre-tesis que permitía crear Campañas de Phishing controladas hacia los trabajadores de una empresa, arrojando estadísticas y permitiendo clonar cualquier página solo ingresando la URL de la misma.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/yung-woodz/Phishing-project',
 		anim: 'fade-left',
 	},
-	{
+	/* {
 		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
 		title: 'Coffe Store',
 		skills: ['React', 'CSS'],
@@ -76,7 +77,7 @@ export const portafolioData = [
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
-	}
+	} */
 ];
 
 const skillIcons = {
